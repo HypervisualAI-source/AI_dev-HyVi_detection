@@ -12,11 +12,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 8. pip3 install -r requirements.txt
                              
 ### Usage Guide
-
-In order to use COCO dataset for training model and inferencing model, coco.yaml (AI_dev-HyVi_detection/third_party_libraries/ultralytics/cfg/datasets/coco.yaml) may has to be modified:
-"path: ..datasets/coco" --> "path: coco" 
-
-                                                 
+                                         
 1. Training Model
    
     cd ./src/YOLOv13-N/
@@ -100,6 +96,7 @@ Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
