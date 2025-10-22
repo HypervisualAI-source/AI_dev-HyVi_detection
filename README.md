@@ -68,6 +68,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 | [YOLOv8m](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt) | 25.9 | 79.3 | 136.00 | 61.1 |
 | [YOLOv8l](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt) | 43.7 | 165.7 | 256.00 | 65.9 |
 | [YOLOv8x](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt) | 68.2 | 258.5 | 401.00 | 66.7 |
+| [YOLOv9e](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9e.pt) | 68.2 | 258.5 | 401.00 | 66.7 |
 | **YOLOv13n** | **2.5** | **6.5** | **40.90** | **52.4** |
                                                                                                         
                                                                                                                  
@@ -96,6 +97,7 @@ Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
