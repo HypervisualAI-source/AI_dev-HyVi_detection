@@ -13,7 +13,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
                              
 ### Usage Guide
                                          
-1. Training Model
+1. Training Model on COCO dataset ([training dataset] (http://images.cocodataset.org/zips/train2017.zip) and [validation dataset](http://images.cocodataset.org/zips/val2017.zip))
    
     cd ./src/YOLOv13-N/
    
@@ -96,6 +96,7 @@ Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
