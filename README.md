@@ -63,11 +63,11 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 ### Benchmark                                                                                                                                                             
 | Model | Parameters(M) | FLOPs(G) | Latency(ms)<br><sup>640(pixel)<br><sup>CPU(12th Gen Intel(R) Core(TM) i5-12400)| mAP50_95<br><sup>coco128(val)|  
 |-------|-----|----------|---------------------------- |-----------------|                                                                                                            
-| yolov8n | 3.2 | 8.9 | 26.00 | 44.8 |
-| yolov8s | 11.2 | 28.8 | 57.00 | 58.8 |
-| yolov8m | 25.9 | 79.3 | 136.00 | 61.1 |
-| yolov8l | 43.7 | 165.7 | 256.00 | 65.9 |
-| yolov8x | 68.2 | 258.5 | 401.00 | 66.7 |
+| [YOLOv8n](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt) | 3.2 | 8.9 | 26.00 | 44.8 |
+| [YOLOv8s](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt) | 11.2 | 28.8 | 57.00 | 58.8 |
+| [YOLOv8m](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt) | 25.9 | 79.3 | 136.00 | 61.1 |
+| [YOLOv8l](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt) | 43.7 | 165.7 | 256.00 | 65.9 |
+| [YOLOv8x](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt) | 68.2 | 258.5 | 401.00 | 66.7 |
 | **yolov13n** | **2.5** | **6.5** | **40.90** | **52.4** |
                                                                                                         
                                                                                                                  
@@ -96,6 +96,7 @@ Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
