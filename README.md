@@ -97,15 +97,13 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 ![Image](demos/ViT-B-16/source/vit_output.gif)
                     
 ### Improvements                       
-#### v0.0.rc3
-Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) are:
-1. Rename the project to "AI_dev-HyVi_detection"
-2. Rearrange the 'src' directory and the 'third_party_libraries' directory to be at the same level in the project structure 
-3. Add "benchmark_models.py", "YOLOv13_N.py" and "comparison.py" (AI_dev-HyVi_detection/src/YOLOv13-N/)
-4. Compared with benchmarks: yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
+#### v0.0.rc4
+Compared to the version (v0.0.rc3), the improvements of the version (v0.0.rc4) are:
+1. Compared with benchmarks: YOLOv9t,YOLOv9s,YOLOv9m,YOLOv9c,YOLOv9e 
                                                                                                                                               
 ### TO DO                                         
-1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+1. Make a comparison between YOLOv13-N and YOLOv10(YOLOv10n,YOLOv10s,YOLOv10m,YOLOv10b,YOLOv10l,YOLOv10x)                                                                                                   
+
 
 
 
