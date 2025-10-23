@@ -28,10 +28,16 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 3. Comparing with benchmark
                                                                                                                                                                                                                        
     cd ./src/YOLOv13-N/
-	                                                                                                    
+
+	3.1 For YOLOv8
+   																								
     python3 comparison_yolov8.py
 
-4. Demonstrating YOLOv13-N
+    3.2 For YOLOv9
+
+	python3 comparison_yolov9.py
+
+5. Demonstrating YOLOv13-N
 
     cd ./demos/YOLOv13-N/
    
@@ -45,7 +51,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
    
 	    ./demo.sh
 
-5. Demonstrating ViT-B-16
+6. Demonstrating ViT-B-16
    
     cd ./demos/ViT-B-16/
    
@@ -100,6 +106,7 @@ Compared to the version (v0.0.rc2), the improvements of the version (v0.0.rc3) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv9                                                                                                   
+
 
 
 
