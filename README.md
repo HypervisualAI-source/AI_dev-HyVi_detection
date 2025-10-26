@@ -1,5 +1,5 @@
 ### AI dev - HyVi detection                                                                                        
-Hypervisual AI is currently developing a project that incorporates YOLOv13-N, with plans to integrate ViT-B-16 in future iterations.
+Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, with plans to integrate ViT-B-16 in future iterations.
                                                                                                     
 ### Install Dependencies                                                                            
 1. git clone https://github.com/HypervisualAI-source/AI_dev-HyVi_detection.git                               
@@ -103,6 +103,7 @@ Compared to the version (v0.0.rc3), the improvements of the version (v0.0.rc4) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv10(YOLOv10n,YOLOv10s,YOLOv10m,YOLOv10b,YOLOv10l,YOLOv10x)                                                                                                   
+
 
 
 
