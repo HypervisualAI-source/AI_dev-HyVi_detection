@@ -78,8 +78,7 @@ Hypervisual AI is currently developing a project that incorporates YOLOv13-N, wi
 | [YOLOv9s](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9s.pt)| 7.3 | 27.6 | 76.00 | 46.4 |                   
 | [YOLOv9m](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9m.pt) | 20.2 | 77.9 | 160.00 | 51.5 |
 | [YOLOv9c](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9c.pt) | 25.6 | 104.0 | 202.00 | 52.9 |
-| [YOLOv9e](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9) | 58.2 | 193.0 | 401.00 | 55.3 |                                                                                  
-| **yolov13n** | **2.5** | **6.5** | **41.40** | **41.4** |                                                                                                                                 
+| [YOLOv9e](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov9) | 58.2 | 193.0 | 401.00 | 55.3 |                                         | **yolov13n** | **2.5** | **6.5** | **41.40** | **41.4** |                                                                                                                                 
                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                                                                                             
 ### Demos                                                                                                                                                             
@@ -103,6 +102,7 @@ Compared to the version (v0.0.rc3), the improvements of the version (v0.0.rc4) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv10(YOLOv10n,YOLOv10s,YOLOv10m,YOLOv10b,YOLOv10l,YOLOv10x)                                                                                                   
+
 
 
 
