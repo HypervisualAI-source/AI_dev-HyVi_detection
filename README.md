@@ -67,7 +67,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
                                                                                                                                                                                                                                               
                                                                                                                                                                                                                                                    
 ### Benchmark                                                                                                                                                             
-| Model | Parameters(M) | FLOPs(G) | Latency(ms)<br><sup>640(pixel)<br><sup>CPU(12th Gen Intel(R) Core(TM) i5-12400)| mAP50_95<br><sup>coco(val)|  
+| Model | Parameters(M) | GFLOPs| Latency(ms)<br><sup>640(pixel)<br><sup>CPU(12th Gen Intel(R) Core(TM) i5-12400)| mAP50_95<br><sup>coco(val)|  
 |-------|-----|----------|---------------------------- |-----------------|                                                                                                            
 | [YOLOv8n](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt) | 3.2 | 8.9 | 26.00 | 37.1 |                      
 | [YOLOv8s](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt) | 11.2 | 28.8 | 59.00 | 44.8 |
@@ -103,6 +103,7 @@ Compared to the version (v0.0.rc3), the improvements of the version (v0.0.rc4) a
                                                                                                                                               
 ### TO DO                                         
 1. Make a comparison between YOLOv13-N and YOLOv10(YOLOv10n,YOLOv10s,YOLOv10m,YOLOv10b,YOLOv10l,YOLOv10x)                                                                                                   
+
 
 
 
