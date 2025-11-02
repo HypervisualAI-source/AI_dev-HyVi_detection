@@ -112,7 +112,8 @@ Compared to the version (v0.0.rc4), the improvements of the version (v0.0.rc5) a
 1. Compared with benchmarks: YOLOv10n,YOLOv10s,YOLOv10m,YOLOv10b,YOLOv10l,YOLOv10x
                                                                                                                                               
 ### TO DO                                                                                                                                      
-1. Make a comparison between YOLOv13-N and YOLOv11(YOLOv11n,YOLOv11s,YOLOv11m,YOLOv11l,YOLOv11x)                                                                                                   
+1. Make a comparison between YOLOv13-N and YOLO11(YOLO11n,YOLO11s,YOLO11m,YOLO11l,YOLO11x)                                                                                                   
+
 
 
 
