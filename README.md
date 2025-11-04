@@ -41,6 +41,9 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 
 	python3 comparison_yolov10.py
 
+    ![image](src/YOLOv13-N/test.jpg)
+	
+
 5. Demonstrating YOLOv13-N
 
     cd ./demos/YOLOv13-N/
@@ -113,6 +116,7 @@ Compared to the version (v0.0.rc4), the improvements of the version (v0.0.rc5) a
                                                                                                                                               
 ### TO DO                                                                                                                                      
 1. Make a comparison between YOLOv13-N and YOLO11(YOLO11n,YOLO11s,YOLO11m,YOLO11l,YOLO11x)                                                                                                   
+
 
 
 
