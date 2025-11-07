@@ -57,8 +57,6 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 
     4.1 Demonstrating YOLOv13-N in shell script file
    
-        cd ./demos/YOLOv13-N/
-   
         chmod +x demo.sh
    
 	    ./demo.sh
@@ -70,8 +68,6 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	python3 demo.py 
 
     5.1 Demonstrating YOLOv13-S in shell script file
-   
-        cd ./demos/YOLOv13-S/
    
         chmod +x demo.sh
    
@@ -145,6 +141,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
