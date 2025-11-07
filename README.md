@@ -81,8 +81,6 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
                                        
     6.1 Demonstrating ViT-B-16 in shell script file
    
-        cd ./demos/ViT-B-16/
-   
         chmod +x demo.sh
                                                               
 	    ./demo.sh
@@ -141,6 +139,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
