@@ -40,8 +40,11 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	3.3 For YOLOv10
 
 	python3 comparison_yolov10.py
+
+    3.4 For YOLOv11
+    python3 comparison_yolov11.py
 	
-    3.4 For YOLOv13-S                                                           
+    3.5 For YOLOv13-S                                                           
 	
 	cd ./src/YOLOv13-S/                                                                                                                                                                                 
 
@@ -49,7 +52,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	
 	![Image](asset/yolo_n_s_results.jpg)    
 
-4. Demonstrating YOLOv13-N
+5. Demonstrating YOLOv13-N
 
     cd ./demos/YOLOv13-N/
    
@@ -61,7 +64,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
    
 	    ./demo.sh
 		
-5. Demonstrating YOLOv13-S
+6. Demonstrating YOLOv13-S
 
     cd ./demos/YOLOv13-S/
    
@@ -73,7 +76,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
    
 	    ./demo.sh
 
-6. Demonstrating ViT-B-16
+7. Demonstrating ViT-B-16
    
     cd ./demos/ViT-B-16/
    
@@ -139,6 +142,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
