@@ -20,14 +20,14 @@ data_benchmark = match_benchmark.group(1)
 title = ["Model", "parameters(M)", "GFLOPs", "latency(ms)", "mAP50_95"]
                                                                                                                                                    
 # features from YOlOv13
-yolov13n = []                                                                                                                                         
+yolov13s = []                                                                                                                                         
 text = data_v13                                       
 result = text.split(' ')                          
 for i in range(len(result)):
     if not result[i]:
         pass
     else:
-        yolov13n.append(result[i])
+        yolov13s.append(result[i])
                                                     
                                                                                                                                                          
 # features from benchmarks                                                                                                       
@@ -56,8 +56,9 @@ data.append(title)
 for i in range(len(benchmark_list)):
     data.append(benchmark_list[i])
                                                                                                                  
-data.append(yolov13n)                                            
+data.append(yolov13s)                                            
                                                                                                   
 # comparison table                                               
 for row in data:                                                                  
     print(row)  
+
