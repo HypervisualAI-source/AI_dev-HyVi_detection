@@ -42,6 +42,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	python3 comparison_yolov10.py
 
     3.4 For YOLOv11
+   
     python3 comparison_yolov11.py
 	
     3.5 For YOLOv13-S                                                           
@@ -142,6 +143,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
