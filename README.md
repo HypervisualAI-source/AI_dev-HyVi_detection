@@ -149,7 +149,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 #### YOLOv13-S for object detection (30ms/frame)
 ![Image](demos/YOLOv13-S/source/yolo_output.gif)
 
-#### YOLOE-11-S for detection (30ms/frame)
+#### YOLOE-11-S for object detection (30ms/frame)
 ![Image](demos/YOLOE-11-S/source/yoloe_11s.gif)
                        
 #### ViT-B-16 for object classification (30ms/frame)
@@ -161,6 +161,7 @@ Compared to the version (v0.0.rc6), the improvements of the version (v0.0.rc7) a
 1. Deploying YOLOE-11-S for object detection with a text prompt 
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
