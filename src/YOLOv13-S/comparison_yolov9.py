@@ -4,10 +4,10 @@ import re
 import json                                                                                           
                                                                                                                                                                     
 # Call script in venv_benchmark                                                                                                    
-features_benchmark = subprocess.run(["/home/gpnpu/Desktop/AI_development/v0.0.rc6/venv_benchmark/bin/python", "benchmark_yolov9.py"], capture_output=True, text=True)
+features_benchmark = subprocess.run(["/home/gpnpu/Desktop/AI_development/v0.0.rc7/venv_benchmark/bin/python", "benchmark_yolov9.py"], capture_output=True, text=True)
                                                                                                                                                                                                               
 # Call script in venv                                                                                                                                                                                                     
-features_v13 = subprocess.run(["/home/gpnpu/Desktop/AI_development/v0.0.rc6/venv/bin/python", "YOLOv13_S.py"], capture_output=True, text=True)
+features_v13 = subprocess.run(["/home/gpnpu/Desktop/AI_development/v0.0.rc7/venv/bin/python", "YOLOv13_S.py"], capture_output=True, text=True)
                                                                                 
 match_benchmark = re.search(r'features:\s*(.+)', features_benchmark.stdout)                                                                                            
 match = re.search(r'features:\s*(.+)', features_v13.stdout)                                                                           
@@ -60,3 +60,4 @@ data.append(yolov13s)
 # comparison table                                               
 for row in data:                                                                  
     print(row)  
+
