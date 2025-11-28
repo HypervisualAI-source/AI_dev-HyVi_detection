@@ -1,5 +1,5 @@
 ### AI dev - HyVi detection                                                                                        
-Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, with plans to integrate ViT-B-16 in future iterations.
+Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N and YOLOE-11S, with plans to integrate ViT-B-16 in future iterations.
                                                                                                                                                                                            
 ### Install Dependencies                                                                                                                                                                       
 1. git clone https://github.com/HypervisualAI-source/AI_dev-HyVi_detection.git                               
@@ -53,7 +53,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	
 	![Image](asset/yolo_n_s_results.jpg)    
 
-5. Demonstrating YOLOv13-N
+4. Demonstrating YOLOv13-N
 
     cd ./demos/YOLOv13-N/
    
@@ -65,7 +65,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
    
 	    ./demo.sh
 		
-6. Demonstrating YOLOv13-S
+5. Demonstrating YOLOv13-S
 
     cd ./demos/YOLOv13-S/
    
@@ -77,13 +77,25 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
    
 	    ./demo.sh
 
+6. Demonstrating YOLOv13-S
+
+    cd ./demos/YOLOE-11S/
+   
+	python3 demo.py 
+
+    6.1 Demonstrating YOLOE-11S in shell script file
+   
+        chmod +x demo.sh
+   
+	    ./demo.sh
+   
 7. Demonstrating ViT-B-16
    
     cd ./demos/ViT-B-16/
    
 	python3 demo.py                  
                                        
-    6.1 Demonstrating ViT-B-16 in shell script file
+    7.1 Demonstrating ViT-B-16 in shell script file
    
         chmod +x demo.sh
                                                               
@@ -143,6 +155,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
