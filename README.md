@@ -136,7 +136,8 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 | Model | Frame size | Display  | Inference time (average/ms) | FPS (average/s) |   CPU   |
 |-------|-----|----------|---------------------------- |-----------------|---------|
 | YOLOv-13-N|(3, 640, 640) | 1920 x 1080  | 39 | 13 | 12th Gen Intel(R) Core(TM) i5-12400 |
-| YOLOv-13-S|(3, 640, 640) | 1920 x 1080  | 78 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |                        
+| YOLOv-13-S|(3, 640, 640) | 1920 x 1080  | 78 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |   
+| YOLOE-11S|(3, 640, 640) | 1920 x 1080  | 85 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 | 
 | ViT-B-16|(3, 224, 224) | 1920 x 1080  | 95 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
                                                                                                                                                                                                                                            
                                                                                                                                                                                                                                            
@@ -155,6 +156,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
