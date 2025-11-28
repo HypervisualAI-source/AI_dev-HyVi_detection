@@ -77,7 +77,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
    
 	    ./demo.sh
 
-6. Demonstrating YOLOv13-S
+6. Demonstrating YOLOE-11S
 
     cd ./demos/YOLOE-11S/
    
@@ -155,6 +155,7 @@ Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) a
 1. Compared with YOLOv13-S
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
