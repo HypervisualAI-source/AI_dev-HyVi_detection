@@ -143,16 +143,16 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 | ViT-B-16|(3, 224, 224) | 1920 x 1080  | 95 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
                                                                                                                                                                                                                                            
                                                                                                                                                                                                                                            
-#### YOLOv13-N for detection (30ms/frame)
+#### YOLOv13-N for object detection (30ms/frame)
 ![Image](demos/YOLOv13-N/source/yolo_output.gif)
                                                                                                                                                                                       
-#### YOLOv13-S for detection (30ms/frame)
+#### YOLOv13-S for object detection (30ms/frame)
 ![Image](demos/YOLOv13-S/source/yolo_output.gif)
 
 #### YOLOE-11-S for detection (30ms/frame)
 ![Image](demos/YOLOE-11-S/source/yoloe_11s.gif)
                        
-#### ViT-B-16 for classification (30ms/frame)
+#### ViT-B-16 for object classification (30ms/frame)
 ![Image](demos/ViT-B-16/source/vit_output.gif)                            
                                                                                                                                                                                                                                            
 ### Improvements                                                                                                                                                                                                                           
@@ -161,6 +161,7 @@ Compared to the version (v0.0.rc6), the improvements of the version (v0.0.rc7) a
 1. Deploying YOLOE-11-S for object detection with a text prompt 
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
