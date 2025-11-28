@@ -76,6 +76,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
         chmod +x demo.sh
    
 	    ./demo.sh
+   
 6. Demonstrating YOLOE-11-S
 
     cd ./demos/YOLOE-11-S/
@@ -87,7 +88,9 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
         chmod +x demo.sh
    
 	    ./demo.sh
-
+    ![Image](asset/yoloe_construction_helmet.jpg)
+    ![Image](asset/yoloe_traffic_helmet.jpg)
+   
 7. Demonstrating ViT-B-16
    
     cd ./demos/ViT-B-16/
@@ -135,7 +138,8 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 | Model | Frame size | Display  | Inference time (average/ms) | FPS (average/s) |   CPU   |
 |-------|-----|----------|---------------------------- |-----------------|---------|
 | YOLOv-13-N|(3, 640, 640) | 1920 x 1080  | 39 | 13 | 12th Gen Intel(R) Core(TM) i5-12400 |
-| YOLOv-13-S|(3, 640, 640) | 1920 x 1080  | 78 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |                        
+| YOLOv-13-S|(3, 640, 640) | 1920 x 1080  | 78 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
+| YOLOE-11-S|(3, 640, 640) | 1920 x 1080  | 85 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |   
 | ViT-B-16|(3, 224, 224) | 1920 x 1080  | 95 | 8 | 12th Gen Intel(R) Core(TM) i5-12400 |
                                                                                                                                                                                                                                            
                                                                                                                                                                                                                                            
@@ -144,16 +148,20 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
                                                                                                                                                                                       
 #### YOLOv13-S for detection (30ms/frame)
 ![Image](demos/YOLOv13-S/source/yolo_output.gif)
+
+#### YOLOE-11-S for detection (30ms/frame)
+![Image](demos/YOLOE-11-S/source/yoloe_11s.gif)
                        
 #### ViT-B-16 for classification (30ms/frame)
 ![Image](demos/ViT-B-16/source/vit_output.gif)                            
                                                                                                                                                                                                                                            
 ### Improvements                                                                                                                                                                                                                           
-#### v0.0.rc6
-Compared to the version (v0.0.rc5), the improvements of the version (v0.0.rc6) are:
-1. Compared with YOLOv13-S
+#### v0.0.rc7
+Compared to the version (v0.0.rc6), the improvements of the version (v0.0.rc7) are:
+1. Deploying YOLOE-11-S for object detection with a text prompt 
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
