@@ -156,11 +156,12 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 ![Image](demos/ViT-B-16/source/vit_output.gif)                            
                                                                                                                                                                                                                                            
 ### Improvements                                                                                                                                                                                                                           
-#### v0.0.rc7
-Compared to the version (v0.0.rc6), the improvements of the version (v0.0.rc7) are:
-1. Deploying YOLOE-11-S for object detection with a text prompt 
+#### v0.0.rc8
+Compared to the version (v0.0.rc7), the improvements of the version (v0.0.rc8) are:
+1. Adding the new attention mechanism, HVAI_MultiheadLatentAttention
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
