@@ -158,9 +158,10 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 ### Improvements                                                                                                                                                                                                                           
 #### v0.0.rc8
 Compared to the version (v0.0.rc7), the improvements of the version (v0.0.rc8) are:
-1. Adding the new attention mechanism, HVAI_MultiheadLatentAttention
+1. Adding the new attention mechanism, HVAI_MultiheadLatentAttention (./third_party_libraries/hvai_torch/latent_attention.py)
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
