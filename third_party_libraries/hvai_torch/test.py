@@ -9,6 +9,7 @@ Args:
     token_size: How many tokens are in one input sequence.
     embed_dim: The size of the vector representing each token.
     d_latent: The dimension of the latent subspace used to compute attention
+    num_heads: The number of parallel attention heads.
 """
    
 # input data 
@@ -28,4 +29,5 @@ hvai_mla = nn.MultiheadAttention(d_latent = 20, embed_dim = 1024, num_heads = 16
 with torch.no_grad():
     out_test = hvai_mla(input_test)
     print("out_test:", out_test.shape)
+
 
