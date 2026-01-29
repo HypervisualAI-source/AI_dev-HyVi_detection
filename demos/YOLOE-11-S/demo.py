@@ -8,7 +8,8 @@ from PIL import Image
 import time                                                                                   
 import random                                                                                        
 import yaml                                                                                                                                                                                                                       
-                                                                                    
+
+sys.path.append(os.path.abspath('../../third_party_libraries'))    
 from ultralytics import YOLOE
                                                                                                                                                             
 COLOR_FAMILY_RANGES = {                                                                                                                                          
@@ -293,6 +294,7 @@ if __name__ == "__main__":
     # demo function 
     while True:                                                                                                                                                                       
         demo(model, video_path_yolo, imgsz, conf_thres, iou_thres,  task_yolo_cp,  all_category, colors_yolo , fontScale_yolo_ori, device, up_logo_cp, up_points, font, window_name, bgr_helmet)
+
 
 
 
