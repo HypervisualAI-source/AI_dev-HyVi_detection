@@ -1,5 +1,5 @@
 ### AI dev - HyVi detection                                                                                        
-Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16 and HVAI_MLA_ViT with a custom attention mechanism, HVAI_MultiheadLatentAttention.
+Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16 and HVAI_MLA_ViT with the custom attention mechanism, HVAI_MultiheadLatentAttention.
                                                                                                                                                                                            
 ### Install Dependencies                                                                                                                                                                       
 1. git clone https://github.com/HypervisualAI-source/AI_dev-HyVi_detection.git                               
@@ -176,6 +176,7 @@ Compared to the version (v0.0.rc8), the improvements of the version (v0.0.rc9) a
 1. Adding the HVAI_MLA_ViT mdoel with HVAI_MultiheadLatentAttention (./src/HVAI_MLA_ViT/)
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
