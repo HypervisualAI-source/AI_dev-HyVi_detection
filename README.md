@@ -110,9 +110,9 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 	python3 performance.py
 	
 	#### Performance                                                                                                                                                                                     
-	| Model | Float Accuracy | Hardware Accuracty | FPS (Batch Size = 1) | FPS (Batch Size = 8) | Input Resolution (HXWXC) | Params (M) | OPS (G) | CPU |
+   |Model|Float Accuracy|Hardware Accuracty|FPS (Batch Size = 1)|FPS (Batch Size = 8)|Input Resolution (HXWXC)|Params (M) |OPS (G)|CPU|
 	|-------|-----|----------|---------------------------- |-----------------|---------|---------|---------|---------|
-	| HVAI_MLA_ViT | 95.1 | / | 88 | 128 | (32x32x3) | 22.19 | 1.61 | 12th Gen Intel(R) Core(TM) i5-12400 |
+   |HVAI_MLA_ViT|95.1|/|88|128|(32x32x3)|22.19|1.61|12th Gen Intel(R) Core(TM) i5-12400|
                                                    
 	8.1 For the usage of HVAI_MLA_ViT model
 	
@@ -176,6 +176,7 @@ Compared to the version (v0.0.rc8), the improvements of the version (v0.0.rc9) a
 1. Adding the HVAI_MLA_ViT mdoel with HVAI_MultiheadLatentAttention (./src/HVAI_MLA_ViT/)
                                                                                                                                                                                                                               
                                                                                                                                                                          
+
 
 
 
