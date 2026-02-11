@@ -13,10 +13,10 @@ Args:
 """
    
 # input data 
-input_test = torch.randn(1000,1,1024)   # (1000,1,1024): [token_size,batch_size,embed_dim]
+input_test = torch.randn(1,1000,1024)   # (1,1000,1024): [batch_size,token_size,embed_dim]
         
 # case 1: multi-head attention
-mha_attention = nn.MultiheadAttention(embed_dim = 1024, num_heads = 16)  
+mha_attention = nn.MultiheadAttention(embed_dim = 1024, num_heads = 16, batch_first=True)  
 with torch.no_grad():
     out_test, _ = mha_attention(input_test, input_test, input_test)  # (input_test, input_test, input_test): (q, k, v) (q = k = v)
     print("out_test:", out_test.shape)
@@ -29,5 +29,6 @@ hvai_mla = nn.MultiheadAttention(d_latent = 20, embed_dim = 1024, num_heads = 16
 with torch.no_grad():
     out_test = hvai_mla(input_test)
     print("out_test:", out_test.shape)
+
 
 
