@@ -46,10 +46,7 @@ class Transformer(Module):
             ]))                                                                                                                             
                                                                                                                                                   
     def forward(self, x):                                                  
-        for attn, ff in self.layers:                                                                                     
-            #print("&&&&&&&&&&&&&&&&&&&7____x.shape:", x.shape)
-
-            
+        for attn, ff in self.layers:                                                                                    
             out_data, _ = attn(x, x, x)
             x = out_data + x            
             x = ff(x) + x                                                                                                  
@@ -106,4 +103,5 @@ class ViT_mha_pytorch(Module):
         x = x.mean(dim = 1) if self.pool == 'mean' else x[:, 0]
 
         x = self.to_latent(x)
+
         return self.mlp_head(x)
