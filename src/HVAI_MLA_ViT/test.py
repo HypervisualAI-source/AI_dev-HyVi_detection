@@ -5,7 +5,8 @@ import sys
 import torch                                                                                                
 import glob                                                                                                                                                                    
 import time    
-from vit_latent_hvai import ViT_latent_hvai                                                                                               
+from vit_latent_hvai import ViT_latent_hvai
+from vit_mha_pytorch import ViT_mha_pytorch   
                                     
 
 from sklearn.metrics import (
@@ -45,6 +46,7 @@ categories = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'h
 predicated_class = categories[top_class_idx]
 print("Category: ", predicated_class)
 print("Probability:", top_prob)
+
 
 
 
