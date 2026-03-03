@@ -6,7 +6,8 @@ import torch
 import glob                                                                                                                                                                    
 import time                                                                                                 
 from fvcore.nn import FlopCountAnalysis, flop_count_str
-from vit_latent_hvai import ViT_latent_hvai                                                                                                                                                                           
+from vit_latent_hvai import ViT_latent_hvai  
+from vit_mha_pytorch import ViT_mha_pytorch    
                                                                                                                                                                                                      
 from sklearn.metrics import (                                                                                                                                 
     accuracy_score,
@@ -218,4 +219,5 @@ if __name__ == "__main__":
                                                                                                                                    
     # demo function                                                                                  
     demo(vit_model, test_path, categories, flops_total, all_params)                                                                  
+
 
