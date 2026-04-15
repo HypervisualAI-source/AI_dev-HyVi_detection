@@ -193,7 +193,7 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 #### ViT-B-16 for object classification (30ms/frame)
 ![Image](demos/ViT-B-16/source/vit_output.gif)     
 
-#### YOLOE-26n for object detection (30ms/frame)
+#### YOLOE-26n for object detection (90ms/frame)
 ![Image](demos/YOLOE-26n/source/demo.gif)         
                                                                                                                                                                                                                                            
 ### Improvements                                                                                                                                                                                                                           
