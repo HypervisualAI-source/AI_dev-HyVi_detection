@@ -1,5 +1,5 @@
 ### AI dev - HyVi detection                                                                                        
-Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16 and HVAI_MLA_ViT with the custom attention mechanism, HVAI_MultiheadLatentAttention.
+Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16, HVAI_MLA_ViT with the custom attention mechanism (HVAI_MultiheadLatentAttention) and YOLOE-26n.
                                                                                                                                                                                            
 ### Install Dependencies                                                                                                                                                                       
 1. git clone https://github.com/HypervisualAI-source/AI_dev-HyVi_detection.git                               
@@ -133,6 +133,12 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 
     python3 performance_FP32_BF16.py
 
+9. Demonstrating YOLOE-26n
+   
+    cd ./demos/YOLOE-26n/
+   
+	python3 demo.py    
+
    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
@@ -185,12 +191,15 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 ![Image](demos/YOLOE-11-S/source/yoloe_11s.gif)
                        
 #### ViT-B-16 for object classification (30ms/frame)
-![Image](demos/ViT-B-16/source/vit_output.gif)                            
+![Image](demos/ViT-B-16/source/vit_output.gif)     
+
+#### YOLOE-26n for object detection (30ms/frame)
+![Image](demos/YOLOE-26n/source/demo.gif)         
                                                                                                                                                                                                                                            
 ### Improvements                                                                                                                                                                                                                           
-#### v0.0.rc10
-Compared to the version (v0.0.rc9), the improvements of the version (v0.0.rc10) are:
-1. Implementing the HVAI_MLA_ViT mdoel with FP32 and BF16 (./src/HVAI_MLA_ViT/)
+#### v0.0.rc11
+Compared to the version (v0.0.rc10), the improvements of the version (v0.0.rc11) are:
+1. Demonstrating the object detection for YOLOE-26n (./demos/YOLOE-26n/)
                                                                                                                                                                                                                               
                                                                                                                                                                          
 
