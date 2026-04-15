@@ -1,5 +1,5 @@
 ### AI dev - HyVi detection                                                                                        
-Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16 and HVAI_MLA_ViT with the custom attention mechanism, HVAI_MultiheadLatentAttention.
+Hypervisual AI Company is currently developing a project that incorporates YOLOv13-N, YOLOE-11-S, ViT-B-16, HVAI_MLA_ViT with the custom attention mechanism (HVAI_MultiheadLatentAttention) and YOLOE-26n.
                                                                                                                                                                                            
 ### Install Dependencies                                                                                                                                                                       
 1. git clone https://github.com/HypervisualAI-source/AI_dev-HyVi_detection.git                               
@@ -132,6 +132,12 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
     8.4 For the performance of HVAI_MLA_ViT model with BF16
 
     python3 performance_FP32_BF16.py
+
+9. Demonstrating YOLOE-26n
+
+   cd ./demos/YOLOE-26n/
+
+   python3 demo.py
 
    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
