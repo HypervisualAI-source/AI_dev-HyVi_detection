@@ -133,6 +133,10 @@ Hypervisual AI Company is currently developing a project that incorporates YOLOv
 
     python3 performance_FP32_BF16.py
 
+9. Demonstrating YOLOE-26n
+
+   cd ./demos/ViT-B-16/
+
    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
